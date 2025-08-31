@@ -1,0 +1,28 @@
+{
+  "name": "dep-lens",
+  "version": "1.0.1",
+  "description": "Check which dependencies are older than N days compared to the latest published version (declared vs latest). Supports npmjs, GitHub Packages , and Azure Artifacts.",
+  "bin": {
+    "dep-lens": "bin/dep-lens.cjs"
+  },
+  "type": "commonjs",
+  "main": "bin/dep-lens.cjs",
+  "files": [
+    "bin",
+    "README.md",
+    "LICENSE"
+  ],
+  "license": "MIT",
+  "author": "Manish Kalra <mkalra811@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": " https://github.com/manish0/dep-lens.git"
+  },
+  "keywords": ["npm", "dependencies", "outdated", "semver", "ci", "cli"],
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "dependencies": {
+    "semver": "^7.6.3"
+  }
+}
